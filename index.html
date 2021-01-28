@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Message Sharing</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="row">
         <div class="col s8 offset-s2">
-            <div class="card-panel">
+            <div id="message-form" class="card-panel">
                 <form action="">
                     <label for="">Enter a Secret Message</label>
                     <input type="text" id="message-input">
@@ -17,7 +18,7 @@
                 </form>
             </div>
 
-            <div>
+            <div id="link-form" class="card-panel hide">
                 Share this link
                 <input type="text" id="link-input">
             </div>
